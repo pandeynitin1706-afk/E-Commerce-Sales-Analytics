@@ -126,3 +126,7 @@ The interactive dashboard includes KPI cards, yearly sales and profit trends, ca
 - `E-Commerce_Sales_Analytics.ipynb` — Python and SQL analysis
 - `E-Commerce_sales_analytics.pbix` — Power BI dashboard
 - `README.md` — Project documentation
+
+## Power BI Dashboard
+
+![Power BI Dashboard](power-bi-dashboard.png)
