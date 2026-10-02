@@ -86,3 +86,43 @@ E-Commerce-Sales-Analytics/
 ## Author
 
 **Data Analytics Portfolio Project**
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- SQL (SQLite)
+- Power BI
+- GitHub
+
+## Project Workflow
+
+CSV Dataset → Python Data Cleaning & EDA → SQL Analysis → Power BI Dashboard
+
+## Key Metrics
+
+- Total Sales: $2.297M
+- Total Profit: $286.4K
+- Total Quantity: 37,873
+- Profit Margin: 12.47%
+
+## Key Insights
+
+- Technology generated the highest profit among the categories.
+- West region generated the highest sales and profit.
+- 2016 and 2017 showed strong sales and profit growth.
+- Higher discount levels were associated with lower average profitability.
+- Consumer segment generated the highest total sales and profit.
+- Canon imageCLASS 2200 Advanced Copier was the highest-profit product.
+
+## Power BI Dashboard
+
+The interactive dashboard includes KPI cards, yearly sales and profit trends, category and regional analysis, product profitability, segment analysis, discount analysis, and interactive slicers.
+
+## Project Files
+
+- `E-Commerce_Sales_Analytics.ipynb` — Python and SQL analysis
+- `E-Commerce_sales_analytics.pbix` — Power BI dashboard
+- `README.md` — Project documentation
