@@ -1,2 +1,88 @@
-# E-Commerce-Sales-Analytics
-E-commerce sales and profit analysis using Python, SQL and Power BI.
+# E-Commerce Sales & Profit Analytics
+
+## Project Overview
+
+This project analyzes the Superstore e-commerce dataset to understand
+sales, profitability, customer segments, product performance, regional
+performance, and the relationship between discounts and profit.
+
+## Objectives
+
+-   Analyze overall sales and profit performance
+-   Identify high- and low-performing categories, regions, products, and
+    segments
+-   Analyze yearly sales and profit trends
+-   Examine the relationship between discount levels and average profit
+-   Build an interactive Power BI dashboard
+
+## Dataset
+
+**Dataset:** Sample Superstore\
+**Rows:** 9,994\
+**Columns:** 21
+
+Key fields include Order Date, Ship Date, Segment, Region, Category,
+Product Name, Sales, Quantity, Discount, and Profit.
+
+## Tools & Technologies
+
+Python, Pandas, NumPy, Matplotlib, SQLite/SQL, Power BI, Google Colab
+
+## Project Workflow
+
+**CSV → Python/Pandas → SQL → Power BI**
+
+## Analysis Performed
+
+-   Data structure, missing-value, and duplicate checks
+-   Date conversion and shipping-days calculation
+-   Sales, profit, quantity, and profit-margin calculations
+-   Category, region, segment, product, and shipping analysis
+-   Year-over-year analysis
+-   Discount vs. average profit analysis
+-   SQL business queries for product, region, category, segment, year,
+    shipping mode, and discount analysis
+
+## Power BI Dashboard
+
+The dashboard includes: - Total Sales, Total Profit, Total Quantity, and
+Profit Margin KPIs - Yearly Sales & Profit trend - Profit by Category
+and Region - Top 10 Products by Profit - Sales & Profit by Segment -
+Discount vs. Average Profit scatter plot - Year, Region, and Category
+slicers
+
+## Key Findings
+
+-   Total Sales: **\$2.297M**
+-   Total Profit: **\$286.4K**
+-   Total Quantity: **37,873**
+-   Overall Profit Margin: **12.47%**
+-   Technology generated the highest total profit among categories.
+-   West generated the highest total regional profit.
+-   Consumer contributed the highest overall sales and profit.
+-   Higher discount levels were generally associated with lower average
+    profit in the dataset.
+-   Canon imageCLASS 2200 Advanced Copier was the highest-profit
+    product.
+
+## Business Takeaways
+
+The analysis highlights profitable categories, regions, products, and
+customer segments while showing where higher discounts are associated
+with weaker profitability. The Power BI dashboard provides an
+interactive way to explore these patterns.
+
+## Project Structure
+
+``` text
+E-Commerce-Sales-Analytics/
+├── Sample - Superstore.csv
+├── E-Commerce_Sales_Analytics.ipynb
+├── superstore.db
+├── E-Commerce_Sales_Dashboard.pbix
+└── README.md
+```
+
+## Author
+
+**Data Analytics Portfolio Project**
